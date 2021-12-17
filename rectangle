@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+// draw a rectangle of size m*n, with m,n input from the keyboard
+
+int main(){
+
+int m, n;
+    printf("nhập m = ");
+    scanf("%d", &m);
+    
+    printf("nhập n = ");
+    scanf("%d", &n);
+
+    for (i = 1; i <= m; i++){
+        for (j = 1; j <= n; j++)
+        {
+            printf("* ");
+        }
+        printf("\n");
+    }
+    return 0;
+}
