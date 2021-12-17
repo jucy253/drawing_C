@@ -5,10 +5,10 @@
 int main(){
 
 int m, n;
-    printf("nhập m = ");
+    printf("input m = ");
     scanf("%d", &m);
     
-    printf("nhập n = ");
+    printf("input n = ");
     scanf("%d", &n);
 
     for (i = 1; i <= m; i++){
